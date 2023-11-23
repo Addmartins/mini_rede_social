@@ -153,7 +153,7 @@ const feed = async (req, res) => {
 
             postagem.curtidas = curtidas.length;
 
-            //curtido por min
+            //pelo usuario logado
 
             postagem.curtidoPorMim = curtidas.find(
                 curtida => curtida.usuario_id == id
