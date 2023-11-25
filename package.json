@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon ./src/filtros/index.js"
+    "dev": "nodemon ./src/filtros/index.js",
+    "start": "npm ./src/filtros/index.js"
   },
   "keywords": [],
   "author": "",

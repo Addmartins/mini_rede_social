@@ -4,10 +4,10 @@ module.exports =
     require('knex')({
         client: 'pg',
         connection: {
-            host: process.env.HOST || HOST,
-            user: process.env.USER || USER,
-            port: process.env.PORT || PORT,
-            password: process.env.PASS || PASS,
+            host: process.env.DBHOST || DBHOST,
+            user: process.env.DBUSER || DBUSER,
+            port: process.env.DBPORT || DBPORT,
+            password: process.env.DBPASS || DBPASS,
             database: process.env.DATABASE || DATABASE
         }
     })
