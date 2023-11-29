@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "dev": "nodemon ./src/filtros/index.js",
-    "start": "node ./src/filtros/index.js"
+    "start": "node ./src/filtros/index.js",
+    "install-prod": "npm install --production"
   },
   "keywords": [],
   "author": "",
