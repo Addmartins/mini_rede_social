@@ -15,7 +15,7 @@ CREATE TABLE usuarios (
 CREATE TABLE postagens (
     id serial primary key,
     usuario_id int references usuarios(id),
-    data timestamp default now();
+    data timestamp default now(),
     legenda text
 );
 
@@ -28,7 +28,7 @@ CREATE TABLE postagem_fotos (
 CREATE TABLE postagem_curtidas (
     id serial primary key,
     usuario_id int references usuarios(id),
-    data timestamp default now(),
+    data timestamp default now()
 );
 
 CREATE TABLE postagem_comentarios (
