@@ -1,7 +1,7 @@
 const knex = require('../filtros/conexão');
 const bcrypt = require('bcrypt');
 const jwt = require('jsonwebtoken');
-const dotenv = require('dotenv').config();
+require('dotenv').config();
 
 
 const login = async (req, res) => {
